@@ -1,0 +1,72 @@
+#logo {
+
+}
+
+/* deleted
+.hero {
+    /* background-image: url("http://res.cloudinary.com/simpleview/image/upload/v1602138733/clients/norway/woodnest_tree_house_hardanger_fjord_norway_photo_sindre_ellingsen_2_1_d0d2bffc-41e3-4f72-b2d9-a69c74f43bdd.jpg"); */
+    /* background-size:cover; */
+    /* background-repeat: no-repeat; */
+    /* width: 100%;
+} */
+
+
+
+body {
+    background-image: url("http://res.cloudinary.com/simpleview/image/upload/v1602138733/clients/norway/woodnest_tree_house_hardanger_fjord_norway_photo_sindre_ellingsen_2_1_d0d2bffc-41e3-4f72-b2d9-a69c74f43bdd.jpg");
+    background-position: center;
+     background-repeat: no-repeat;
+     background-position-y: center;
+     height: 100vh;
+}
+
+ul{
+    /* background-color: transparent; */
+    background: #0d111b;
+    background-color: rgba(0,0,0,.2);
+    margin: 0;
+    padding-bottom: 20px;
+    /* give this ul an id so i can write an ul below */
+    
+    /* This adjusts the navigation bar text placement */
+    text-align: right;
+
+}
+
+li {
+    display: inline-block;
+    padding: 20px 20px;
+    
+  
+}
+
+
+
+
+#nav-options {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px;
+   
+  
+   
+   /* why this not work? Why need to be under li a?   text-decoration: none; */
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(231, 231, 231);
+    font-size:x-large;
+    font-family: monospace;
+    
+   
+    
+}
+/* .navbar {
+    background-color:black;
+    text-align: left;
+} */
+
+li a:hover {
+    color: rgb(177, 177, 177);
+}
