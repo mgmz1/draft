@@ -13,7 +13,7 @@
 
 
 body {
-    background-image: url("http://res.cloudinary.com/simpleview/image/upload/v1602138733/clients/norway/woodnest_tree_house_hardanger_fjord_norway_photo_sindre_ellingsen_2_1_d0d2bffc-41e3-4f72-b2d9-a69c74f43bdd.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.5)), url("http://res.cloudinary.com/simpleview/image/upload/v1602138733/clients/norway/woodnest_tree_house_hardanger_fjord_norway_photo_sindre_ellingsen_2_1_d0d2bffc-41e3-4f72-b2d9-a69c74f43bdd.jpg");
     background-position: center;
      background-repeat: no-repeat;
      background-position-y: center;
@@ -69,4 +69,12 @@ li a{
 
 li a:hover {
     color: rgb(177, 177, 177);
+}
+
+.front-title {
+    font-size: 100px;
+    color: white;
+    margin-left: 200px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
