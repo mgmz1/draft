@@ -78,3 +78,18 @@ li a:hover {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
+.blur {
+    background: inherit; 
+    left: 0;
+    right: 0;
+    top: 0; 
+    bottom: 0;
+    box-shadow: inset 0 0 0 3000px rgba(255, 255, 255, 0.096);
+    filter: blur(10px);
+    background: inherit;
+    width: 500px;
+    height: 800px;
+     position: absolute;
+     background-attachment: fixed;
+}
